@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+        integrity="sha512-Zx6MlUMKSVJoQ+83OwhdILe8cSEsCzfqThJd7J/VA2UrK6Ctj85p+xzqfyuNXE5B1k25uUdmJ2OzItbBy9GHAQ=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>WebStudio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container ">
+            <nav >
+                <a href="./" class="link logo">
+                    <span class="logo-span">Web</span>Studio</a>
+                <ul  class="menu list-no">
+                    <li class="nav-item">
+                        <a class="link nav-link" href="#">Студия</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link nav-link" href="portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link nav-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="con-list list-no">
+                <li class="con-item">
+                    <a class="link con-link" href="mailto:info@devstudio.com">
+                    <svg class="icon-mail">
+                        <use href="sprite.svg#icon-mail"></use>
+                    </svg>
+                        info@devstudio.com</a>
+                </li>
+                <li class="con-item">
+                    <a class="link con-link" href="tel:+380961111111"> 
+                        <svg class="icon-phone">
+                            <use href="sprite.svg#icon-smartphone2"></use>
+                        </svg>
+                       +38 096 111 11 11</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="bigblock">
+            
+            <div class="container">
+                <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+                <div class="center">
+                    <button class="order-but"  data-open-modal>Заказать услугу</button>    
+                </div>
+        </section>
+        <section  class="about-section">
+            <div class="container">
+                <ul class="about-list list-no">
+                    <li class="about-list-item">
+                        <svg class="icon-sputnik">
+                            <use href="sprite.svg#icon-Group-1"></use>
+                        </svg>
+                        <h3 class="mini-title">Внимание к деталям</h3>
+                        <p class="zagolovok about-p">
+                            Идейные соображения, а также</br> начало повседневной работы по</br>
+                            формированию позиции.
+                        </p>
+                    </li>
+                    <li class="about-list-item">
+                        <svg class="icon-clock"> 
+                            <use href="sprite.svg#icon-Group-2"></use>
+                        </svg>
+                        <h3 class="mini-title">Пунктуальность</h3>
+                        <p class="zagolovok about-p">
+                            Задача организации, в особенности</br> же рамки и место обучения кадров</br>
+                            влечет за собой.
+                        </p>
+                    </li>
+                    <li class="about-list-item">
+                        <svg class="icon-pc">
+                            <use href="sprite.svg#icon-Group-3"></use>
+                        </svg>
+                        <h3 class="mini-title">Планирование</h3>
+                        <p class="zagolovok about-p">
+                            Равным образом консультация с</br> широким активом в значительной</br>
+                            степени обуславливает.
+                        </p>
+                    </li>
+                    <li class="about-list-item">
+                        <svg class="icon-astronaut">
+                            <use href="sprite.svg#icon-Group-4"></use>
+                        </svg>
+                        <h3 class="mini-title">Современные технологии</h3>
+                        <p class="zagolovok about-p">
+                            Значимость этих проблем настолько</br> очевидна, что реализация
+                            плановых</br> заданий.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="list-img-section">
+            <div class="container">
+                <h2 class="title-section">Чем мы занимаемся</h2>
+                <ul class="list-no list-img">
+                    <li>
+                        <img src="img.png" width="370" height="294" alt="png" />
+                        <div class="back">
+                            <p class="back-text">Десктопные приложения</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img (1).png" width="370" height="294" alt="png1" />
+                        <div class="back">
+                            <p class="back-text">Мобильные приложения</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img (2).png" width="370" height="294"
+                            alt="png2" />
+                            <div class="back">
+                                <p class="back-text">Дизайнерские решения</p>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="team">
+            <div class="container">
+                <h2 class="title-section">Наша команда</h2>
+                <ul class="list-no list-team">
+                    <li class="card-people">
+                        <img src="img.jpg" alt="Ігарь" width="270" height="260" />
+                        <h4 class="title-name">Игорь Демьяненко</h4>
+                        <p class="job">Product Designer</p>
+                        <ul class="list-no cocial">
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse-3"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse"></use>
+                                    </svg>
+                                </a>
+                            </li>   
+                        </ul>
+                    </li>
+                    <li class="card-people">
+                        <img src="img (1).jpg" alt="Ольга" width="270" height="260" />
+                        <h4 class="title-name">Ольга Репина</h4>
+                        <p class="job">Frontend Developer</p>
+                        <ul class="list-no cocial">
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse-3"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="card-people">
+                        <img src="img (2).jpg" alt="Коля" width="270" height="260" />
+                        <h4 class="title-name">Николай Тарасов</h4>
+                        <p class="job">Marketing</p>
+                        <ul class="list-no cocial">
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse-3"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="card-people">
+                        <img src="img (3).jpg" alt="Міша" width="270" height="260" />
+                        <h4 class="title-name">Михаил Ермаков</h4>
+                        <p class="job">UI Designer</p>
+                        <ul class="list-no cocial">
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse-3"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="cocial-margin">
+                                <a class="cocial-link-href" href="">
+                                    <svg class="cocial-link">
+                                        <use href="sprite.svg#icon-Ellipse"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="team">
+            <div class="container">
+                <h2 class="title-section">Постоянные клиенты</h2>
+                <ul class="list-no list-team">
+                    <li >
+                        <a class="icon-link-client" href="" >
+                        <svg class="icon-client">
+                            <use href="sprite.svg#icon-Client-1"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li >
+                        <a class="icon-link-client" href="">
+                    <svg class="icon-client">
+                        <use href="sprite.svg#icon-Client-2"></use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li >
+                        <a class="icon-link-client" href="">
+                    <svg class="icon-client">
+                        <use href="sprite.svg#icon-Client-3"></use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li >
+                        <a class="icon-link-client" href="">
+                    <svg class="icon-client">
+                        <use href="sprite.svg#icon-Client-4"></use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li > 
+                        <a class="icon-link-client" href="">
+                        <svg class="icon-client">
+                            <use href="sprite.svg#icon-Client-5"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li >
+                        <a class="icon-link-client" href="">
+                        <svg class="icon-client">
+                            <use href="sprite.svg#icon-Client-6"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container content">
+            <div class="margin-content">
+            <a href="./" class="link logo footer-logo">
+                <span class="logo-span ">Web</span><span class="white-span">Studio</span>
+            </a>
+            <address class="address">
+                <p class="address-street link">г. Киев, пр-т Леси Украинки, 26</p>
+                
+                <ul class="list-no">
+                    <li class="footer-item-list">
+                        <a class="link con-link footer-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="footer-item-list">
+                        <a class="link con-link footer-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+        <div >
+            <p class="mini-title cocial2">ПРИСОЕДИНЯЙТЕСЬ</p>
+        <ul class="list-no cocial">
+            <li class="cocial-margin">
+                <a class="cocial-link-href3" href="">
+                    <svg class="cocial-link">
+                        <use href="sprite.svg#icon-Ellipse-3"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="cocial-margin">
+                <a class="cocial-link-href3" href="">
+                    <svg class="cocial-link">
+                        <use href="sprite.svg#icon-Ellipse-2"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="cocial-margin">
+                <a class="cocial-link-href3" href="">
+                    <svg class="cocial-link">
+                        <use href="sprite.svg#icon-Ellipse-1"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="cocial-margin">
+                <a class="cocial-link-href3" href="">
+                    <svg class="cocial-link">
+                        <use href="sprite.svg#icon-Ellipse"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        </div>
+        <div class="podpiska">
+            <h3 class="mini-title cocial2">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+            <div class="input-podpiska">
+                <input type="text" class="for-mail" placeholder="E-mail">
+                <button type="submit" class="but-follow">Подписаться
+                    <svg class="icon-send" width="24px" height="24px">
+                        <use href="/sprite.svg#icon-send"></use>
+                    </svg>
+                </button>
+                </div>
+        </div>
+        </div>
+
+    </footer>
+    
+    
+        <div class="backdrop is-hidden" data-backdrop>
+        
+            <div class="modal">
+        
+                <form class="form" autocomplete="off">
+        
+                    <h3 class="modal-nazva">Оставьте свои данные, мы вам перезвоним</h3>
+        
+                    <label class="form-label">Имя
+                        <input class="input" type="text" name="user-name" />
+                        <svg class="icon-form" width="18px" height="18px">
+                            <use href="sprite.svg#icon-person"></use>
+                        </svg>
+                    </label>
+        
+                    <label class="form-label">Телефон
+                        <input class="input" type="tel" name="user-tel" />
+                        <svg class="icon-form" width="18px" height="18px">
+                            <use href="sprite.svg#icon-phone-black"></use>
+                        </svg>
+                    </label>
+        
+                    <label class="form-label">Почта
+                        <input class="input" type="email" name="user-email" />
+                        <svg class="icon-form" width="18px" height="18px">
+                            <use href="sprite.svg#icon-email-black"></use>
+                        </svg>
+                    </label>
+        
+                    <label class="form-label">Коментарий
+                        <textarea class="comment-textarea" name="comment" placeholder="Введите текст"></textarea>
+                    </label>
+        
+                    <input class="agreement-checkbox visually-hidden" type="checkbox" name="agreement" id="agreement" />
+                    <label class="agreement-label" for="agreement">Соглашаюсь с рассылкой и принимаю
+                        <a class="agreement-link" href=""> Условия договора</a>
+                    </label>
+        
+                    <button class="button-send" type="submit">Отправить</button>
+        
+                </form>
+        
+                <button type="button" class="button-close" data-close-modal>
+                    <svg class="icon-close" width="30px" height="30px">
+                        <use href="sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+
+            </div>
+        </div>
+   
+    <script src="js/js.js"></script>
+</body>
+
+</html>
