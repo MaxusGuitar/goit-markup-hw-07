@@ -1,0 +1,189 @@
+.about-name {
+  font-family: var(--anyfont);
+  color: var(--p-color);
+}
+
+.bigblock-title {
+  color: var(--backcol);
+  font-family: var(--anyfont);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 auto 30px auto;
+  width: 696px;
+}
+
+.about-title {
+  font-family: var(--anyfont);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.about-name_about-p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.title-section {
+  font-family: var(--anyfont);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.title-name {
+  font-family: var(--anyfont);
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.job {
+  font-family: var(--anyfont);
+  color: var(--p-color);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.name-project {
+  font-family: var(--anyfont);
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+
+.type-catalog {
+  font-family: var(--anyfont);
+  color: var(--p-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.rotate-text {
+  color: white;
+  font-family: var(--anyfont);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+
+.for-mail {
+  font-family: roboto;
+  height: 50px;
+  width: 358px;
+  padding: 0px 0px 0px 16px;
+  margin-right: 12px;
+  background-color: transparent;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  outline: none;
+}
+
+.for-mail::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.text-list {
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  margin-bottom: 3px;
+}
+
+.modal-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 12px;
+}
+
+.form-label {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: #757575;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.agreement-label {
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+  color: #757575;
+}
+
+.link {
+  font-family: var(--anyfont);
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--title-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-street {
+  color: var(--backcol);
+  font-family: var(--anyfont);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 9px;
+}

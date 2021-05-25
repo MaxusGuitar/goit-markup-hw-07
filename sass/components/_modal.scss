@@ -15,29 +15,6 @@
   margin-left: 93px;
 }
 
-.for-mail {
-  font-family: roboto;
-  height: 50px;
-  width: 358px;
-  padding: 0px 0px 0px 16px;
-  margin-right: 12px;
-  background-color: transparent;
-  color: white;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  border-radius: 4px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  outline: none;
-}
-
-.for-mail::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-}
-
 .input-podpiska {
   margin-top: 20px;
   display: flex;
@@ -45,36 +22,6 @@
 
 .back-list {
   position: relative;
-}
-
-.text-list {
-  font-family: roboto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #fff;
-  width: 100%;
-  height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
-  margin-bottom: 3px;
-}
-
-.modal-name {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 12px;
 }
 
 .form .title {
@@ -91,18 +38,6 @@
   padding: 40px;
 }
 
-.form-label {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: #757575;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 .form-label .input {
   margin-top: 4px;
   margin-bottom: 10px;
@@ -181,17 +116,4 @@
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
-}
-
-.agreement-label {
-  font-family: roboto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  margin-bottom: 30px;
-  color: #757575;
 }
