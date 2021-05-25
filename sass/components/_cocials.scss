@@ -1,0 +1,45 @@
+.cocial {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.cocial-link {
+  width: 20px;
+  height: 20px;
+}
+.cocial-href,
+.cocial-margin .cocial-link-href {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cocial-link-href .cocial-link {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cocial-link-href:hover .cocial-link {
+  fill: #fff;
+}
+
+.cocial-href {
+  background: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #ffffff;
+}
+
+.cocial-margin .cocial-href:hover,
+.cocial-margin .cocial-link-href:focus,
+.cocial-margin .cocial-link-href:hover {
+  background-color: var(--bluecol);
+}
+
+.cocial-margin {
+  margin-right: 10px;
+}

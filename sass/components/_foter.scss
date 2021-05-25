@@ -1,0 +1,32 @@
+.footer {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address-street {
+  color: var(--backcol);
+  font-family: var(--anyfont);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 9px;
+}
+
+.footer-item-list {
+  margin-top: 9px;
+}
+
+.footer .footer-link {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .footer-link:hover {
+  color: var(--bluecol);
+}
+
+.footer .footer-link:focus {
+  color: var(--bluecol);
+}

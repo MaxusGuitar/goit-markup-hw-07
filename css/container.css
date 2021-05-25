@@ -1,0 +1,10 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+header .container {
+  display: flex;
+}
+/*# sourceMappingURL=container.css.map */
