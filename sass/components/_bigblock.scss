@@ -1,15 +1,29 @@
 .bigblock {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(
-      to top,
+      to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url(../title.jpg);
-  padding-top: 200px;
-  padding-bottom: 200px;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .bigblock-center {
   text-align: center;
+}
+
+.bigblock-box {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }

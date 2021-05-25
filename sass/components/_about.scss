@@ -1,0 +1,7 @@
+.about-list {
+  display: flex;
+}
+.about-list-item:not(:last-child) {
+  margin-right: 30px;
+  width: 270px;
+}

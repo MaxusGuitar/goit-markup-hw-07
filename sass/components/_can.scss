@@ -1,0 +1,15 @@
+.con-list {
+  display: flex;
+  margin-left: auto;
+}
+.con-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 3.14;
+  letter-spacing: 0.02em;
+  color: var(--contact-color);
+}
+.con-link:hover,
+.con-link:focus {
+  color: var(--bluecol);
+}

@@ -21,3 +21,12 @@
 .footer .footer-link:focus {
   color: var(--bluecol);
 }
+
+.content {
+  align-items: baseline;
+  display: flex;
+}
+
+.margin-content {
+  margin-right: 70px;
+}
