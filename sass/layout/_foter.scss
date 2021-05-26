@@ -2,24 +2,19 @@
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  .footer-link {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .footer-link:hover,
+  .footer-link:focus {
+    color: var(--bluecol);
+  }
 }
 
 .footer-item-list {
   margin-top: 9px;
-}
-
-.footer .footer-link {
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer .footer-link:hover {
-  color: var(--bluecol);
-}
-
-.footer .footer-link:focus {
-  color: var(--bluecol);
 }
 
 .content {

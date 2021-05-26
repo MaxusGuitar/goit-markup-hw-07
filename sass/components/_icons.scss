@@ -42,12 +42,11 @@
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
-
-.icon-link-client:hover,
-.icon-link-client:focus {
-  fill: var(--bluecol);
-  border-color: var(--bluecol);
+  &:hover,
+  &:focus {
+    fill: var(--bluecol);
+    border-color: var(--bluecol);
+  }
 }
 
 .icon-form {
@@ -55,10 +54,6 @@
   top: 29px;
   left: 15px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form-label .input:focus {
-  border-color: #2196f3;
 }
 
 .form-label .input:focus + .icon-form {
